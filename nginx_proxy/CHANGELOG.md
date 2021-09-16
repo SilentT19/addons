@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.3
+
+- Added `halistenport` option for proxy `homeassistant` with another port
+
 ## 3.0.2
 
 - Update Alpine to 3.14

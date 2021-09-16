@@ -82,6 +82,11 @@ The filename(s) of the NGINX configuration for the additional servers, found in 
 If enabled, configure Nginx with a list of IP addresses directly from Cloudflare that will be used for `set_real_ip_from` directive Nginx config.
 This is so the `ip_ban_enabled` feature can be used and work correctly in /config/customize.yaml.
 
+### Option `halistenport` (optional)
+
+If set, configure Nginx with the proxy_pass to another port if you configured your HomeAssistant with different port.
+Default: `8123`
+
 ## Known issues and limitations
 
 - By default, port 80 is disabled in the add-on configuration in case the port is needed for other components or add-ons like `emulated_hue`.
